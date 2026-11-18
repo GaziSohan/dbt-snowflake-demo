@@ -1,0 +1,7 @@
+sources:
+  - name: source_tables
+    database: dbt_tutorial
+    schema: dbt_src_files_data
+    tables:
+      - name: dim_customer
+      - name: sales_orders
